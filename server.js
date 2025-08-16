@@ -26,7 +26,7 @@ mongoose
 
   // Routes
 app.use("/api/products", require("./src/routes/ProductRoutes"));
-app.use("/api/categories", require("./src/routes/CategoryRoutes"));
+app.use("/api/category", require("./src/routes/CategoryRoutes"));
 app.use("/api/roles", require("./src/routes/roleRoute"));
 app.use("/uploads", express.static("uploads"));
 app.use('/api/auth', authRoutes);
